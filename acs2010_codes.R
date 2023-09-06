@@ -8,6 +8,8 @@ data(state.fips)
 var_dec10 <- load_variables(2010, "sf1", cache = TRUE) #variables in decennial 2010
 var_acs10 <- load_variables(2010, "acs5", cache = TRUE) #variables in acs 2010
 
+#sequencing data download because downloading so many variables slows down office PC!!!
+
 #batch 1
 
 #variables in batch 1
