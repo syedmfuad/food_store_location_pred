@@ -1,6 +1,8 @@
 # food_store_location_pred
 This paper uses census tract-level data to determine the presence, density, and popularity of U.S. food retailers. We merge census tract-level demographic data, neighborhood amenities, and Point of Interest (POI) data from anonymized cellphone GPS ‘pings’ to identify food retailer location and foot traffic information. 
 
+Sequence: ACS -> Merge -> Regressions 
+
 ## acs2010_codes.R 
 Downloads ACS 2010 5-year average census tract level demographic data + 2010 dicennial census data. Merges census tract-level data on walkability scores, job density, transit availability, road network, local sales tax and county-level crime statistics. 
 
@@ -24,3 +26,9 @@ Merges with Safegraph point-of-interest data (store count) and store visit frequ
 
 * Negative binomial regression
 * Zero-truncated negative binomial regression 
+
+## 33523-0004-Data.rda 
+Crime data 
+
+## Variable list.xlsx 
+Total list of variables in final data 
