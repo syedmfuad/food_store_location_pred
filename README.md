@@ -19,3 +19,8 @@ Merges with Safegraph point-of-interest data (store count) and store visit frequ
 * Gradient Boosted Logit w/ balancing
 * OLS
 * Gradient Boosted OLS 
+
+## nbreg.do
+
+* Negative binomial regression
+* Zero-truncated negative binomial regression 
