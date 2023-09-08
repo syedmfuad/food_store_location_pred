@@ -1,5 +1,5 @@
 # food_store_location_pred
-This paper uses census tract-level data to determine the presence, density, and popularity of U.S. food retailers. We merge census tract-level demographic data, neighborhood amenities, and Point of Interest (POI) data from anonymized cellphone GPS ‘pings’ to identify food retailer location and foot traffic information. 
+This paper uses census tract-level data to determine the presence, density, and popularity of U.S. food retailers. We merge census tract-level demographic data from ACS, neighborhood amenities from heterogenous sources, and Point of Interest (POI) data from anonymized cellphone GPS ‘pings’ to identify food retailer location and foot traffic information. 
 
 Sequence: ACS -> Merge -> Regressions 
 
